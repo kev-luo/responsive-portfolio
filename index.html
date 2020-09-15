@@ -11,7 +11,7 @@
 
         <title>Kevin's Portfolio</title>
     </head>
-    <body style="background:linear-gradient(45deg, #e66465, #9198e5);">
+    <body style="background:linear-gradient(45deg, #e66465, #9198e5);height:100vh;">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Kevin Luo</a>
@@ -27,16 +27,15 @@
             </div>
             </div>
         </nav>
-        <div class="container mt-5">
-            <div class="card" style="width: 40rem;">
+            <div class="container mt-5 card bg-light" style="width: 50rem;">
                 <div class="card-body">
                     <h5 class="card-title">About Me</h5>
                     <hr>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-sm-4">
                             <img src="https://placeimg.com/200/200/nature" alt="nature">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-sm-8">
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 Impedit fugit ea nihil asperiores quo labore a deleniti est? Laboriosam dolor provident dicta! 
                                 Veniam ut quaerat repellat consequatur dolor velit pariatur optio odit alias deserunt eaque ad 
@@ -46,7 +45,7 @@
                         </div>
                     </div>
                     <div class="row mt-3">
-                        <div class="col-md-12">
+                        <div class="col-sm-12">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error omnis nostrum ab. Velit veritatis 
                                 facilis incidunt recusandae, tempora atque eligendi itaque beatae repudiandae vero consequatur 
                                 eum aperiam optio hic labore.</p>
@@ -54,14 +53,16 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <footer id="sticky-footer" class="py-3 bg-secondary text-light">
+
+
+        <footer style="position:fixed;bottom:0;" class="container-fluid py-3 bg-secondary text-light">
             <div class="container text-center">
                 <span>
                     &copy; Copyright
                 </span>
             </div>
         </footer>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
