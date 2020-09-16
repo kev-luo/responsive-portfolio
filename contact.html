@@ -12,7 +12,7 @@
         <title>Kevin's Portfolio</title>
     </head>
     <body style="background:linear-gradient(45deg, #e66465, #9198e5);height:100vh;">
-
+        <!-- navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Kevin Luo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
@@ -27,48 +27,49 @@
             </div>
             </div>
         </nav>
-
-
-        <div class="row">
+        <!-- contact form section -->
+        <main class="row">
             <div class="col-sm-12">
                 <div class="card m-5 bg-light" style="max-width: 700px;">
                     <div class="container card-body">
                         <h2 class="card-title">Contact</h5>
                         <hr>
                         <form class="p-1">
-                            <div class="row">
+                            <!-- first row of form - name -->
+                            <details class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group" style="max-width: 550px;">
                                         <label for="formGroupExampleInput">Name</label>
                                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
+                            </details>
+                            <!-- second row of form - email -->
+                            <details class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group" style="max-width: 550px;">
                                         <label for="exampleInputEmail1">Email</label>
                                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
+                            </details>
+                            <!-- third row of form - message -->
+                            <details class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group" style="max-width: 550px;">
                                         <label for="exampleFormControlTextarea1">Message</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
                                     </div>
                                 </div>
-                            </div>
-                            
+                            </details>
+                            <!-- submit button on form -->
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
-            
-
+        </main>
+    
         <footer style="position:fixed;bottom:0;" class="container-fluid py-3 bg-secondary text-light">
             <div class="container text-center">
                 <span>
