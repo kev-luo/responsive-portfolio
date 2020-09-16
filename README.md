@@ -24,7 +24,6 @@ The screenshot below shows an example of Bootstrap's components:
 The first step in creating my site was adding components that would be consistent across all pages on my site. This included the navigation bar, footer, and background color. For the navigation bar, I chose a navbar component from Bootstrap and altered the href links so that they navigated to the correct pages when clicked. For theh footer, I simply added a container-fluid class with a fixed position on each HTML file. Finally, I added background linear-gradient styling to the body tags of each HTML file to standardize the background for my site.
 
 The screenshot below shows how I linked the navigation bar buttons to the corresponding pages on my site: 
-
 ![VScode showing navigation bar href links](assets/images/vscode-navbar-href.png)
 
 
@@ -47,7 +46,7 @@ There are three nested rows within the card, with each row containing one form-g
 
 Please see the following link which directs you to my portfolio site. Clicking on the nagivation bar links will direct you to the corresponding pages.
 
-[Responsive-Portfolio Link](https://kev-luo.github.io/responsive-portfolio/)
+* [Responsive-Portfolio Link](https://kev-luo.github.io/responsive-portfolio/)
 
 ## Credits
 
