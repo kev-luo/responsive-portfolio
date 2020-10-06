@@ -22,8 +22,20 @@
 }
 
 .box, .card {
-    /* background: rgba(255, 255, 255, 0.4); */
-    background: rgba(6, 46, 102, 0.2);
+    background: rgba(255, 255, 255, 0.4);
+    /* background: rgba(6, 46, 102, 0.2); */
+}
+
+#git {
+    background: url('assets/images/github.png');
+    height: 60px;
+    width: 60px;
+}
+
+#linked {
+    background: url('assets/images/linkedin.png');
+    height: 60px;
+    width: 60px;
 }
 
 /* media query optimizes background for different screen sizes*/
