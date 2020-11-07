@@ -65,4 +65,25 @@ Licensed under the [MIT](https://github.com/microsoft/vscode/blob/master/LICENSE
 
 
 
+FoodFix
+A recipe search site that utilizes Spoonacular's public API's to provide visuals of recipe ingredients, nutritional content, and a detailed list of preparation instructions.
+Bulma, HTML5,CSS,jQuery
+
+Weather Dashboard
+A weather monitoring site that utilizes Open Weather's public API's to display temperature, windspeed, sunrise/sunset, and UV index information for US cities.
+Bootstrap, Chart.js
+
+What's Cookin
+CRUD application that stores data in a MySQL database. Users can input a meal and choose to eat it now or save it for later. The food can be deleted once eaten, and the status of the food can be edited from save for later to eat now. Communicated with the database with an ORM.
+Node.js, MySQL, Handlebars, Express.js, 
+
+Woof
+A website for dog owners to find other dog owners to set up dates for your doggos. Utilized MySQL database to store user information, Bcrypt to hash passwords before storing them, SequelizeJs to manage the database, Handlebars as a template engine, and Heroku to deploy our live website.
+Sequelize, Passport.js, Bcrypt
+
+https://young-journey-39190.herokuapp.com/
+PokeTimes
+A simple react application that uses a Pokemon API to display Pokemon of a random type. 
+React
+
 

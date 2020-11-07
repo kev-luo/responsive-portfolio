@@ -1,0 +1,23 @@
+<div class="container">
+  <h1 class="title has-text-centered is-2 has-text-light mt-3">Projects</h1>
+  <div class="portfolioContainer">
+    <% projectsArr.forEach(function(project) {%>
+      <div class="flip-card portfolioCard">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h3><%= project.name %></h3>
+            <hr />
+            <ul>
+            <% project.skills.forEach(function(skill) { %>
+              <li><%= skill %></li>
+            <% }) %>
+            </ul>
+          </div>
+          <div class="flip-card-back">
+            <p><%= project.description %></p>
+          </div>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+</div>
