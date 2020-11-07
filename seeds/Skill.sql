@@ -1,0 +1,15 @@
+INSERT INTO Skills(name, createdAt, updatedAt, ProjectId) Values
+  ("Bulma", NOW(), NOW(), 1),
+  ("HTML5", NOW(), NOW(), 1),
+  ("CSS", NOW(), NOW(), 1),
+  ("jQuery", NOW(), NOW(), 1),
+  ("Bootstrap", NOW(), NOW(), 2),
+  ("Chart.js", NOW(), NOW(), 2),
+  ("Node.js", NOW(), NOW(), 3),
+  ("MySQL", NOW(), NOW(), 3),
+  ("Handlebars", NOW(), NOW(), 3),
+  ("Express.js", NOW(), NOW(), 3),
+  ("Sequelize", NOW(), NOW(), 4),
+  ("Passport.js", NOW(), NOW(), 4),
+  ("Bcrypt", NOW(), NOW(), 4),
+  ("React", NOW(), NOW(), 5)

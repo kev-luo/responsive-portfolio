@@ -10,6 +10,7 @@ router.get('/portfolio', async (req, res) => {
       id: project.dataValues.id,
       name: project.dataValues.name,
       description: project.dataValues.description,
+      deployedLink: project.dataValues.deployedLink,
       skills: [],
     }
 
@@ -19,14 +20,7 @@ router.get('/portfolio', async (req, res) => {
 
     projectsArr.push(projectInfo)
   })
-  console.log(projectsArr);
   res.render('portfolio', { title: 'Portfolio', projectsArr });
 })
-
-// router.get('/project/:projectId', (req, res) => {
-//   console.log(req.params.projectId);
-//   res.render('portfolio', { title: 'portfolio' });
-// })
-
 
 module.exports = router;
