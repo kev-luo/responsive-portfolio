@@ -1,17 +1,12 @@
-$(document).ready(function () {
+
     $(".navbar-burger").on("click", function(event) {
         $(".navbar-burger").toggleClass("is-active");
         $(".navbar-menu").toggleClass("is-active");
     })
-
-    $("#projectDemo").on("click", function(event) {
-        event.preventDefault();
-        $("#projectModal").addClass("is-active");
-    })
-
-    $("#weatherDemo").on("click", function(event) {
-        event.preventDefault();
-        $("#weatherModal").addClass("is-active");
+    const porfolioCard = $(".portfolioContainer");
+    porfolioCard.on("click", function() {
+      console.log($(this).data("value"))
+      console.log("hello");
     })
 
     $("#quizDemo").on("click", function(event) {
@@ -28,4 +23,3 @@ $(document).ready(function () {
         event.preventDefault();
         $(".modal").removeClass("is-active");
     })
-});

@@ -5,7 +5,7 @@ module.exports = function(sequelize, DataTypes) {
   })
 
   Project.associate = function(models) {
-    Project.belongsToMany(models.Skill, { through: 'ProjectSkills', as: 'skill', foreignKey: 'ProjectId' })
+    Project.hasMany(models.Skill)
   }
   return Project;
 }
