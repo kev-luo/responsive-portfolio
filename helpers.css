@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .hero {
     background: black url(assets/images/eberhard-grossgasteiger-medium.jpg) center / cover;
 }
@@ -6,10 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.center-column {
-    flex-direction: column;
 }
 
 .top {align-items: flex-start}
