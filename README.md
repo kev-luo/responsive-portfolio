@@ -5,12 +5,11 @@
 
 ## Description
 
+[Deployed Link](https://portfolio-kevin.herokuapp.com/api/Portfolio)
+
 A portfolio is a key element for any professional programmer - a site to showcase the highlights of your github portfolio would only benefit a programmer's search for his/her next career opportunity. In the modern technology-driven world the selection of devices with web browser capabilities continues to grow. As a result, it's increasingly important to ensure websites have responsive layouts to optimize the viewing experience for all screen sizes. 
 
 While it's possible to create responsive sites by writing raw CSS, Bootstrap provides a convenient framework that saves you the hassle of writing the raw code and allows you to spend more time designing the overall layout of your site. A few advantages of Bootstrap include its pre-defined responsive grid system, customizable components (eg navigation bars, image carousels, etc.), and responsive image resizing. 
-
-The screenshot below shows an example of Bootstrap's components:
-![Bootstrap component](assets/images/bootstrap-site-component.PNG)
 
 ## Table of Contents
 
@@ -22,10 +21,6 @@ The screenshot below shows an example of Bootstrap's components:
 ## Creation Process
 
 The first step in creating my site was adding components that would be consistent across all pages on my site. This included the navigation bar, footer, and background color. For the navigation bar, I chose a navbar component from Bootstrap and altered the href links so that they navigated to the correct pages when clicked. For theh footer, I simply added a container-fluid class with a fixed position on each HTML file. Finally, I added background linear-gradient styling to the body tags of each HTML file to standardize the background for my site.
-
-The screenshot below shows how I linked the navigation bar buttons to the corresponding pages on my site: 
-![VScode showing navigation bar href links](assets/images/vscode-navbar-href.PNG)
-
 
 The next step was adding the content for each page on my site: portfolio, about me, and contact. For each of these pages, I added a card component from Bootstrap and utilized their grid system to organize the content within the card. For each page, the entire card itself (parent) was one row and column, with the content within the card (children) organized in nested rows and columns. The following sections delve into the process for each page.
 
@@ -41,12 +36,6 @@ There are three nested rows within the card, with the first two rows containing 
 **Contact**
 
 There are three nested rows within the card, with each row containing one form-group user-input section. While the contact form does not store anything yet, the main point of this was to create the form itself with responsive re-sizing.
-
-## Usage
-
-Please see the following link which directs you to my portfolio site. Clicking on the nagivation bar links will direct you to the corresponding pages.
-
-* [Responsive-Portfolio Link](https://kev-luo.github.io/responsive-portfolio/)
 
 ## Credits
 
